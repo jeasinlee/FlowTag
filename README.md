@@ -1,3 +1,18 @@
+[![](https://jitpack.io/v/jeasinlee/FlowTag.svg)](https://jitpack.io/#jeasinlee/FlowTag)
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.jeasinlee:FlowTag:1.0'
+	}
+
 # FlowTagLayout
 Android流式布局，支持点击、单选、多选等，适合用于产品标签等，用法采用Adapter模式，和ListView、GridView用法一样！
 
