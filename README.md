@@ -1,3 +1,18 @@
+##如何使用：
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.jeasinlee:FlowTag:1.0'
+	}
+
 # FlowTagLayout
 Android流式布局，支持点击、单选、多选等，适合用于产品标签等，用法采用Adapter模式，和ListView、GridView用法一样！
 
@@ -41,11 +56,3 @@ Android流式布局，支持点击、单选、多选等，适合用于产品标�
 			 }
     
 
-#TODO
-
-* 复用View...
-
-
-#联系我
-
-如果大家在使用过程中遇到任何问题都可以联系我，谢谢！！！最好是发邮件，我每天都会抽时间看一下我的邮箱：hanhailong.cool@163.com
